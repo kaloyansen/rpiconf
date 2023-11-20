@@ -13,4 +13,3 @@ ENABLE_I2C = "0"
 ENABLE_UART = "0"
 
 RPI_USE_U_BOOT = "0"
-
