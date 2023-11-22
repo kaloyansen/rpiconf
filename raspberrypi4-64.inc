@@ -1,5 +1,5 @@
 # raspberrypi-64.inc
-# raspberrypi build configuration
+# target build configuration
 
 BOOT_DELAY = "0"
 BOOT_DELAY_MS = "0"
