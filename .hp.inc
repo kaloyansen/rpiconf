@@ -2,11 +2,11 @@
 # host build configuration
 
 INHERIT:remove = "rm_work"
-# SANITY_TESTED_DISTROS:append = " manjaro"
+SANITY_TESTED_DISTROS:append = " manjaro"
 
-MACHINE = "qemuarm64"
+# MACHINE = "qemuarm64"
 
-#INHERIT:append = " devshell"
+# INHERIT:append = " devshell"
 
 
 # TUNE_FEATURES:remove = "cortexa57"
