@@ -20,6 +20,7 @@ RM_WORK_EXCLUDE:append = " linux-raspberrypi"
 RM_WORK_EXCLUDE:append = " imgui"
 RM_WORK_EXCLUDE:append = " thcp"
 RM_WORK_EXCLUDE:append = " glfw"
+RM_WORK_EXCLUDE:append = " msmtp"
 
 SANITY_TESTED_DISTROS:append = " opensusetumbleweed-*"
 
