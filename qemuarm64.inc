@@ -4,8 +4,8 @@
 QB_MEM = "-m 4096"
 QB_CPU = "-cpu cortex-a72"
 
-MACHINE_FEATURES:append = " wifi"
-MACHINE_FEATURES:append = " pci"
+# MACHINE_FEATURES:append = " wifi"
+# MACHINE_FEATURES:append = " pci"
 # MACHINE_FEATURES:append = " apm"
 # MACHINE_FEATURES:append = " usbhost"
 # MACHINE_FEATURES:append = " sdio"
