@@ -6,7 +6,10 @@ MACHINE = "qemuarm64"
 BUILDELL      = "/sd"
 SSTATE_DIR   ?= "${BUILDELL}/sstate-cache"
 DL_DIR       ?= "${BUILDELL}/downloads"
+
 # BUILDELL:append = "${@'' if d.getVar('MACHINE') == 'raspberrypi4-64' else '/' + d.getVar('MACHINE')}"
+
+# IMAGE_FSTYPES:remove = "${@'ext4' if d.getVar('MACHINE') == 'raspberrypi4-64' else 'wic'}"
 
 TMPDIR        = "${BUILDELL}/tmp/${MACHINE}"
 

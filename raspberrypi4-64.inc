@@ -1,6 +1,8 @@
 # raspberrypi-64.inc
 # target build configuration
 
+IMAGE_FSTYPES:append = " wic"
+
 BOOT_DELAY = "0"
 BOOT_DELAY_MS = "0"
 
