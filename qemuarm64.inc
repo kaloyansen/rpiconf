@@ -1,5 +1,5 @@
 # qemuarm64.inc
-# target build configuration
+# machine configuration
 
 QB_MEM = "-m 4096"
 QB_CPU = "-cpu cortex-a72"
@@ -19,6 +19,6 @@ QB_CPU = "-cpu cortex-a72"
 #QB_TAP_OPT:append = " -netdev tap,id=net1,ifname=@TAP@,script=no,downscript=no"
 
 
-PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
+# PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
 #ASSUME_PROVIDED += "libsdl2-native"
 #PACKAGECONFIG:append:pn-qemu-system-native = " gtk+"

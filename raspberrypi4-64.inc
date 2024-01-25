@@ -1,5 +1,5 @@
 # raspberrypi-64.inc
-# target build configuration
+# machine dependent configuration
 
 IMAGE_FSTYPES:append = " wic"
 
