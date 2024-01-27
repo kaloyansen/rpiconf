@@ -24,6 +24,8 @@ RM_WORK_EXCLUDE:append = " imgui"
 RM_WORK_EXCLUDE:append = " thcp"
 RM_WORK_EXCLUDE:append = " glfw"
 RM_WORK_EXCLUDE:append = " msmtp"
+RM_WORK_EXCLUDE:append = " initscripts"
+RM_WORK_EXCLUDE:append = " procps"
 
 SANITY_TESTED_DISTROS:append = " opensusetumbleweed-*"
 
