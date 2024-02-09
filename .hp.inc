@@ -5,7 +5,7 @@ INHERIT:remove = "rm_work"
 SANITY_TESTED_DISTROS:append = " manjaro"
 BB_NUMBER_THREADS = "22"
 
-# MACHINE = "qemuarm64"
+MACHINE = "qemuarm64"
 
 IMAGE_FSTYPES:remove = "${@'ext4' if d.getVar('MACHINE') == 'raspberrypi4-64' else 'wic'}"
 
