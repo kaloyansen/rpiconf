@@ -20,5 +20,5 @@ QB_CPU = "-cpu cortex-a72"
 
 
 PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
-#ASSUME_PROVIDED += "libsdl2-native"
+ASSUME_PROVIDED += "libsdl2-native"
 #PACKAGECONFIG:append:pn-qemu-system-native = " gtk+"
